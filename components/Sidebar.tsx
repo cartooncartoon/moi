@@ -18,6 +18,12 @@ const Sidebar: React.SFC<SidebarProps> = () => {
                 align-items: flex-end;
             }
 
+            @media only screen and (max-width: 1000px) {
+                .sidebar {
+                    display: none;
+                }
+            }
+
             .input {
                 resize: none;
                 border: none;
